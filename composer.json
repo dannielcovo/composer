@@ -1,0 +1,21 @@
+{
+  "name": "danniel/couse-composer",
+  "Description": "Package teste",
+  "require":{
+    "php":">=5.4",
+    "silex/silex":"1.3.*@stable"
+  },
+  "type":"library",
+  "version":"1.0",
+  "licence":"MIT",
+  "authors":[
+    {
+      "name":"Danniel Covo",
+      "email":"dannielcovo@hotmail.com"
+    }
+  ],
+  "minimum-stability":"dev",
+  "autoload": {
+    "psr-4":{"danniel\\app\\":"src/danniel/app"}
+  }
+}
